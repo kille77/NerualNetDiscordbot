@@ -1,0 +1,38 @@
+{"intents":[
+	{"tag":"greetings",
+		"patterns":["Hello","hi"],
+		"responses":["Hello!","Hi!"]
+	},
+	{"tag":"goodbyes",
+		"patterns":["Goodbye","bye bye","see you"],
+		"responses":["Goodbye","Bye bye","see you"]		
+	},
+	{"tag":"who",
+		"patterns":["Who are you","who is this"],
+		"responses":["Im just a chatbot"]		
+	},
+	{"tag":"old",
+		"patterns":["How old are you?","age"],
+		"responses":["Im 1 year old"]
+		
+	},
+	{"tag":"location",
+		"patterns":["Where are you","Location","where do you live"],
+		"responses":["Im inside computer"]		
+	},
+	{"tag":"site",
+		"patterns":["website","site","what is your favorite website"],
+		"responses":["https://www.google.fi/"]
+
+	},
+	{"tag":"Contact",
+		"patterns":["Contacts","How do i contact"],
+		"responses":["Call me 045 124 432"]
+
+	},
+	{"tag":"what",
+		"patterns":["what can you do"],
+		"responses":["only talk"]
+
+	}
+]}
